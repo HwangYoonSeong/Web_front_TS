@@ -1,0 +1,77 @@
+body{
+    margin: 100px 0 0 0;
+    padding: 0;
+}
+
+.tableDi{
+    position: absolute;
+    display: table;
+    background-color: blue;
+    color: white;
+    height: 500px;
+    padding: 0;
+    width: 300px;
+    transition: .1s all;
+}
+.tableDi:hover{
+    width: 600px;
+}
+
+.tableCell{
+    display: table-cell;
+    list-style: none;
+    vertical-align: middle;
+}
+/* ul{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    background-color: red;
+    height: 300px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+} */
+
+.class1{
+    position: relative;
+    top: -100px;
+    left: 0;
+}
+
+.class2{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.class2:hover{
+    background-color: blue;
+    font-size: 50px;
+}
+
+.test{
+    margin: auto;
+    padding: 30px 0 30px 0;
+    border: 10px solid black;
+}
+
+.test2{
+    background: rgb(149, 207, 149);
+    min-height: 100px;
+    max-height: 300px;
+    text-align: right;
+    color: white;
+    border: 5px dotted black;
+    font-size: 100px;
+    overflow: auto;
+}
