@@ -1,0 +1,19 @@
+.num {
+    width: 40px;
+    height: 40px;
+    padding:5px;
+    text-align: center;
+    font-size: 20px;
+     
+  }
+
+  .active{
+    background: #0b0809;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  .active2{
+    background: #ffd000;
+    border-radius: 50%;
+    color: #ffffff;
+  }
