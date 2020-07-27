@@ -8,7 +8,7 @@
   }
 
   .active{
-    background: #0b0809;
+    background: #bbffc1;
     border-radius: 50%;
     color: #ffffff;
   }
@@ -17,3 +17,17 @@
     border-radius: 50%;
     color: #ffffff;
   }
+
+  .sun{
+      color:red;
+  }
+
+  .sat{
+      color:skyblue;
+  }
+
+  @font-face{
+    font-family:'digital-clock-font';
+    src: url('./digital-7.ttf');
+   }
+ 

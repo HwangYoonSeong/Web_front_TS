@@ -18,7 +18,7 @@
         <!-- Control the column width, and how they should appear on different devices -->
         <div class="row">
 
-            <div class="col-sm-2 align-self-center text-center">
+            <div class="col-sm-3 align-self-center text-center">
                 <div id="day">
 
                 </div>
@@ -27,20 +27,24 @@
 
                 </div>
 
+                <div class=" align-self-center text-center" id="time">
+
+                </div>
+
             </div>
 
-            <div class="col-sm-7">
+            <div class="col-sm-9">
 
                 <table class="table text-center " id="calendar">
 
                     <tr>
                         <!-- label은 마우스로 클릭을 편하게 해줌 -->
-                        <td><label onclick="prevCalendar()">
+                        <td><label onclick="prev()">
                                 &#60; </label>
                         </td>
-                        <td id="tbCalendarYM" colspan="5">
+                        <td id="calendarYM" colspan="5">
                             yyyy년 m월</td>
-                        <td><label onclick="nextCalendar()">
+                        <td><label onclick="next()">
                                 &#62;
 
                             </label></td>
@@ -60,9 +64,7 @@
 
             </div>
 
-            <div class="col-sm-3 text-center" id="time">
 
-            </div>
 
         </div>
 
