@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todoList.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid  ">
+
+        <div class="row" id="parent">
+
+
+            <div class="center-block" id="Login" style="float: none; margin: 100px auto;">
+
+
+                <input type="text" placeholder="enter your ID..." class="input-box" id="Login-box"
+                    style="margin-left: 50px;" autocomplete="off">
+                <button type="button" class="input-data" id="Login-data">LogIn</button>
+                <button type="button" class="input-data" id="Signup-data">SignUp</button>
+                <div class="input-list" id="Login-list"></div>
+
+
+            </div>
+
+            <div class="col-sm-5  text-center" id="leftContent">
+                <button type="button" class="input-data" id="LogOut">LogOut</button>
+                <div class="mt-2" id="day"></div>
+
+                <div id="date" class="  display-1  "></div>
+
+                <div class="text-center" id="time"></div>
+
+                <div> &#60; todo List &#62;</div>
+                <div class="input-wrap">
+                    <input type="text" placeholder="please write here!!" class="input-box" id="todo-box">
+                    <button type="button" class="input-data" id="todo-data">INPUT</button>
+                    <div id="input-list" class="input-list"></div>
+                </div>
+
+                <table class="table   table-sm " id="todolist">
+
+                    <tr class="text-center">
+
+                        <th colspan="1"> pending</th>
+                        <th colspan="2"></th>
+                        <th colspan="2">finished</th>
+
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="col-sm-7" id="rightContent">
+
+                <table class="table  table-sm " id="calendar">
+
+                    <tr class=" text-center">
+
+                        <td><label>
+                                &#60; </label>
+                        </td>
+                        <td id="calendarYM" colspan="5">
+                            yyyy년 m월</td>
+                        <td><label>
+                                &#62;
+
+                            </label></td>
+                    </tr>
+                    <tr>
+                        <th>SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src='./todoList.js'></script>
+</body>
+
+</html>

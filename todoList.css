@@ -1,0 +1,101 @@
+.container-fluid{
+    float:none;
+    margin:0 auto
+}
+.num {
+    width: 40px;
+    height: 40px;
+    padding:5px;
+    text-align: center;
+    font-size: 20px;
+     
+  }
+
+  .active{
+    background: #bbffc1;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  .active2{
+    background: #ffd000;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+
+  .sun{
+      color:red;
+  }
+
+  .sat{
+      color:skyblue;
+      /* background-color: springgreen; */
+  }
+
+
+  
+  .input-box{
+    width: 50%;
+    margin-right: 10px;
+    height: auto; 
+    color: #ffd000;
+    line-height : normal;
+    padding: .8em .5em 0 0; 
+    font-family: inherit;
+    border: 0; 
+    border-bottom: 1px dashed #ffd000;; 
+    border-radius: 0; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+   
+     
+  }
+
+  .input-data{
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    background: #ffd000;
+    border: none;
+    color: #0b0809;
+    border-radius: 50px;
+    -webkit-appearance: none; 
+   
+  }
+  .input-data:hover{
+    background: #ffeb7c;
+    color: #ffffff;
+   
+  }  
+  .input-box:focus{
+    outline:none;
+  
+    }
+  
+  .input-data:focus{
+  outline:none;
+  
+  }
+#LogOut{
+   background-color:darkgrey;
+   
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./digital-7.ttf');
+   }
+ 
+
+.x , .clear {
+   font-weight: bold;
+   
+}
+
+ 
+ 
+.x:hover, .clear:hover{
+    color:red;
+    cursor: pointer;
+ }
