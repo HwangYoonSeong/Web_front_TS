@@ -1,0 +1,12 @@
+{
+	"Adam": {
+		"pw": "a"
+	},
+	"Eve": {
+		"pw": "b"
+	},
+	"Zed": {
+		"email": "Zed@naver.com",
+		"pw": "a"
+	}
+}

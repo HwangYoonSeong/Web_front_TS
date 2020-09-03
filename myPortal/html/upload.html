@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/portal.css">
+    <title>Naver</title>
+</head>
+
+<body>
+    <br>
+
+    <div class="container">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Title</span>
+            </div>
+            <input id="title" type="text" class="form-control">
+        </div>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Question</span>
+            </div>
+            <textarea id="contents" class="form-control" style="height:150px"></textarea>
+        </div>
+        <br>
+
+
+        <a id="uploadBtn" class="btn btn-success float-right" href="#" role="button">Upload</a>
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/upload.js"></script>
+</body>
+
+</html>

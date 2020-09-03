@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Naver:지식iN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/onekin.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html" style="color:#02ad4f"><b>NAVER:지식iN</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">QnA</a></li>
+                    <li><a href="#">답변하기</a></li>
+                    <li><a href="#">지식기부</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container  ">
+        <div id="container" class="row content">
+
+            <br>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>날짜</th>
+
+                    </tr>
+                </thead>
+                <tbody id="postTable">
+                    <tr>
+                        <td>165</td>
+                        <td>title Area</td>
+                        <td>Adam</td>
+                        <td>2020.8.29</td>
+
+                    </tr>
+                    <tr>
+                        <td>164</td>
+                        <td>title Area2</td>
+                        <td>Eve</td>
+                        <td>2020.8.12</td>
+
+                    </tr>
+                    <tr>
+                        <td>163</td>
+                        <td>title Area3</td>
+                        <td>Yoon</td>
+                        <td>2020.8.22</td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <a id="writeBtn" class="btn " href="../html/upload.html" role="button"
+                style="float:right;background-color:#02ad4f ;color:white">글쓰기</a>
+            <br>
+            <br>
+
+
+
+
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        &copy;<a href="http://www.kumoh.ac.kr">20161313</a> All Rights Reserved.
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="../js/kin.js"></script>
+</body>
+
+</html>
